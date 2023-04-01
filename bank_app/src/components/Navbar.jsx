@@ -1,18 +1,30 @@
 import React from 'react'
-import {useState} from 'react'
+// import {useState} from 'react'
 import {navLinks} from '../constants';
 import logo from '../assets/WW.svg';
 //import {close, menu} from '../assets';           Giving me errors
  
 const Navbar = () => {
-  // const [toggle, settoggle] = useState(false) // unused 
+const state = { clicked: false }
+
+const handleClick = () => {
+  this.setState({ clicked: !this.state.clicked })
+  
+}
+
 
   return (
     
     
 
     <nav className='w-full flex py-6 justify-between items-center navbar'>
+       {/* <div className='menu-icon' onClick={this.handleClick}>
+        <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+
+      </div> 
+       */}
       <img src={logo} alt="WW" className="w-[48px]" />
+
       <ul className='list-none sm:flex hidden justify-center items-center flex-1'>
         {navLinks.map((nav, index) => (
 
@@ -23,19 +35,17 @@ const Navbar = () => {
            
           </li>
         ))}
-        <li className='' >
+        {/* <li className='' >
         <a href="#" className='text-white py-6 '>Sign in</a>
-        </li>
+        </li> */}
 
 
       </ul>
 
-      {/* Also giving me errors */}
-       {/* <div>
-        <img src={toggle ? close : menu} alt="" />
-      </div>  */}
+      
     </nav>
   )
+  
 }
 
 export default Navbar
