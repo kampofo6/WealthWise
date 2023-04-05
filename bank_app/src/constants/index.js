@@ -16,13 +16,7 @@ export const navLinks = [
         title:"Blog",
         url: "#"
     }
-    ,
-    {
-        id: "signin",
-        title:"Sign in",
-        url: "#"
-    }
-
+   
 ]
 
 // import '/Users/kojo/Documents/PROJECTS/FINTECH/Bank_app/bank_app/src/assets/fonts/Sfcr/SF-Compact-Rounded-Black.otf'
