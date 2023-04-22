@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
 
-      <img src={logo} alt="WW" className="w-[48px]" />
+      <img src={logo} alt="WW" className="w-[48px] cursor-pointer" />
       <div className=''>
         <ul className='list-none sm:flex hidden justify-start justify-items-start flex-1' >
           {navLinks.map((nav, index) => (
@@ -47,13 +47,13 @@ const Navbar = () => {
       <div className='sm:flex hidden flex space-x-8 items-center'>
 
         <li className='list-none ' >
-          <a href="#" className='text-white underline'>Sign in</a>
+          <a href="#" className='text-white'>Sign in</a>
         </li>
 
 
-        <button className='rounded-xl p-1.5 ' onClick={clickMe} id='nav-button'>
+        <button className='rounded-full p-1.5 flex items-center justify-between' onClick={clickMe} id='nav-button'>
           Get the App
-          {/* <img src={downloadimg} alt="" /> */}
+          {/* <img src={downloadimg} alt=""  className='h-[16px] w-[16px]'/> */}
         </button>
       </div>
 
@@ -62,10 +62,10 @@ const Navbar = () => {
 
         <div className=''>
           {/* Hambureber menu */}
-          <i className={clicked ? 'fas fa-times fa-xl' : 'fas fa-bars fa-xl'} onClick={handleClick}></i>
+          <i className={clicked ? 'fas fa-times fa-xl cursor-pointer' : 'fas fa-bars fa-xl cursor-pointer'} onClick={handleClick}></i>
         
          {/* pop-up bubble */}
-          <div className={`${clicked ? 'flex' : 'hidden'} p-4 bg-black-gradient absolute top-16 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar-div`}>
+          <div className={`${clicked ? 'flex' : 'hidden'} p-4 bg-black-gradient absolute top-16 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar-div z-10`}>
             
             <ul className='list-none flex flex-col justify-start justify-items-start flex-1 '>
               {navLinks.map((nav, index) => (

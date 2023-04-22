@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="371.572" height="316.924" viewBox="0 0 371.572 316.924">
+  <g id="Group_78" data-name="Group 78" transform="translate(-235.094 -200)">
+    <g id="Group_72" data-name="Group 72" transform="translate(-521.64 142)">
+      <g id="Group_66" data-name="Group 66" transform="translate(762.734 138.42)">
+        <g id="Group_30" data-name="Group 30">
+          <path id="Path_20" data-name="Path 20" d="M3794,1289.737s168.97,4.458,170.6,211.638" transform="translate(-3604.065 -1276.872)" fill="none" stroke="rgba(226,226,226,0.09)" stroke-linecap="round" stroke-width="10" stroke-dasharray="50"/>
+          <path id="Path_21" data-name="Path 21" d="M3594.083,1501.375c-.526-152.284,95.409-195.156,154.65-207.138,26.23-5.305,45.268-4.507,45.268-4.507" transform="translate(-3594.081 -1276.872)" fill="none" stroke="#141430" stroke-linecap="round" stroke-width="12"/>
+          <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(199.92 1)" fill="none" stroke="#141430" stroke-width="6">
+            <ellipse cx="14.5" cy="15" rx="14.5" ry="15" stroke="none"/>
+            <ellipse cx="14.5" cy="15" rx="11.5" ry="12" fill="none"/>
+          </g>
+        </g>
+        <text id="_720" data-name="720" transform="translate(113.766 159.504)" fill="#141430" font-size="80" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="0" y="0">720</tspan></text>
+        <text id="Good_" data-name="Good!" transform="translate(117.266 224.504)" fill="#141430" font-size="48" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-weight="600"><tspan x="0" y="0">Good!</tspan></text>
+      </g>
+      <text id="Credit_" data-name="Credit " transform="translate(784.64 88)" fill="#141430" font-size="32" font-family="SFCompactDisplay-Bold, SF Compact Display" font-weight="700"><tspan x="0" y="0">Credit </tspan></text>
+    </g>
+  </g>
+</svg>

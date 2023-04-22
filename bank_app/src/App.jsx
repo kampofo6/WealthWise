@@ -3,6 +3,8 @@ import styles from './style';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Button from './components/Button';
+import Stats from './components/Stats';
+import Test from './components/Test';
 
 
 
@@ -24,14 +26,23 @@ const App = () => {
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-secondary ${styles.flexStart}`} id='stats-bg'>
       <div className={`${styles.boxWidth}`}>
-        Stats
-        Button
-        section
-        section
+        <Stats/>
+        
+        
+        
       </div>
     </div>
+    <div className={`bg-secondary ${styles.flexStart}`} id='test-bg'>
+      <div className={`${styles.boxWidth}`}>
+        <Test/>
+        
+        
+        
+      </div>
+    </div>
+    
     </div>
   )
 }
