@@ -21,7 +21,7 @@ const Stats = () => {
           <div className='flex flex-col  space-y-56  p-0 space-x-20 ' >
 
             <div className='card1 stat-div flex p-6 w-[350px] '>
-              <img src={transaction} alt="" className='stat-pic' />
+              <img src={credit} alt="" className='stat-pic' />
             </div>
 
             {/* <div className='card2 stat-div2 p-8 absolute top-500  w-[300px] '>
@@ -56,13 +56,16 @@ const Stats = () => {
             </div>
 
             <div className='card1s stat-div flex p-6 mx-auto'>
-              <img src={transaction} alt="" className='stat-pic' />
+              <img src={credit} alt="" className='stat-pic' />
             </div>
             
           </div>
+
+          
           
 
         </div>
+        
 
 
 

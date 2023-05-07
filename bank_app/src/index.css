@@ -159,7 +159,7 @@ backdrop-filter: blur(8px);
 
 @media only screen and (max-width: 768px)
 {
-  .stat-sec{
+  .stat-sec, .faces-container{
     display: flex;
     flex-direction: column;
     
@@ -168,6 +168,13 @@ backdrop-filter: blur(8px);
   {
     display: none;
     
+  }
+  .face{
+    display: flex;
+    justify-content: center;
+    
+    height: 256px;
+    width: 256px;
   }
   
   .card1{
@@ -182,7 +189,7 @@ backdrop-filter: blur(8px);
 }
 @media only screen and (max-width: 935px)
 {
-  .stat-sec{
+  .stat-sec, .faces-container{
     display: flex;
     flex-direction: column;
     
@@ -239,11 +246,43 @@ backdrop-filter: blur(8px);
 background: linear-gradient(111deg, rgba(79,79,183,1) 0%, rgba(40,40,98,1) 56%, rgba(23,23,56,1) 100%);
 }
 
+
+
+
+/*             Test Section                */
 #test-bg{
   background: rgb(11,11,27);
 background: linear-gradient(0deg, rgba(11,11,27,1) 0%, rgba(23,23,56,1) 76%, rgba(40,40,98,1) 100%);
 }
 
+/* .face{
+  background: rgba(255, 255, 255, 0.11);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+width: 300px;
+height: 300px;
+
+} */
+
+
+/* FOOT SECTION */
+
+.foot-ul{
+color: #f2f2f2;
+opacity: 50%;
+}
+
+h4{
+  color: #f2f2f2;
+}
+.foot-logo{
+  
+}
+.foot-li{
+  font-family: cdm;
+}
 
 :root {
   --black-gradient: linear-gradient(144.39deg,

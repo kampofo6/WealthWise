@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Button from './components/Button';
 import Stats from './components/Stats';
 import Test from './components/Test';
+import Foot from './components/Foot';
 
 
 
@@ -37,6 +38,8 @@ const App = () => {
     <div className={`bg-secondary ${styles.flexStart}`} id='test-bg'>
       <div className={`${styles.boxWidth}`}>
         <Test/>
+        <Foot/>
+        
         
         
         
