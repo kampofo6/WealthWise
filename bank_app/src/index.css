@@ -252,7 +252,7 @@ background: linear-gradient(111deg, rgba(79,79,183,1) 0%, rgba(40,40,98,1) 56%, 
 /*             Test Section                */
 #test-bg{
   background: rgb(11,11,27);
-background: linear-gradient(0deg, rgba(11,11,27,1) 0%, rgba(23,23,56,1) 76%, rgba(40,40,98,1) 100%);
+  background: linear-gradient(0deg, rgba(11,11,27,1) 25%, rgba(23,23,56,1) 76%, rgba(40,40,98,1) 100%);
 }
 
 /* .face{

@@ -20,7 +20,7 @@ const Foot = () => {
                     <p className='font-bold text-md pb-4 text-white'>
                         Community
                     </p>
-                    <li className='foot-li text-gray-500 text-sm pb-2 font-semibold cursor-pointer hover:text-white'>How it works?</li>
+                    <li className='foot-li text-gray-500 text-sm pb-2 font-semibold cursor-pointer '>How it works?</li>
                     <li className='foot-li text-gray-500 text-sm pb-2 font-semibold cursor-pointer'>Features</li>
                     <li className='foot-li text-gray-500 text-sm pb-2 font-semibold cursor-pointer'>Blogs</li>
                 </ul>

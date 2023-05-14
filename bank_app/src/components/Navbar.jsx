@@ -3,6 +3,11 @@ import { useState } from 'react'
 import { navLinks } from '../constants';
 import logo from '../assets/WW.svg';
 import downloadimg from '../assets/download-solid.svg';
+import { Link } from 'react-router-dom';
+import Signin from '../Pages/Signin';
+
+
+
 //import {close, menu} from '../assets';           Giving me errors
 
 const Navbar = () => {
@@ -46,9 +51,9 @@ const Navbar = () => {
 
       <div className='sm:flex hidden flex space-x-8 items-center'>
 
-        <li className='list-none ' >
-          <a href="#" className='text-white'>Sign in</a>
-        </li>
+      <Link to='/Signin' className='list-none text-white'>
+            Sign in
+          </Link>
 
 
         <button className='rounded-full p-1.5 flex items-center justify-between' onClick={clickMe} id='nav-button'>
