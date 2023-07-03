@@ -1,9 +1,11 @@
-
+import React from "react";
+import ReactDOM from 'react-dom';
+import App from '../App';
 
 export const navLinks = [
     {
         id: "hiw",
-        title:"How it works?",
+        title:"How it works?", 
         url: "#"
 
     },

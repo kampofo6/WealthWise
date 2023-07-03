@@ -19,9 +19,7 @@ const Navbar = () => {
 
 
   }
-  function clickMe() {
-    alert('my nam jeff')
-  }
+
 
 
   return (
@@ -51,15 +49,17 @@ const Navbar = () => {
 
       <div className='sm:flex hidden flex space-x-8 items-center'>
 
-      <Link to='/Signin' className='list-none text-white'>
-            Sign in
-          </Link>
+        <Link to='/Signin' className='nav-login list-none text-white'>
+          Login
+        </Link>
 
-
-        <button className='rounded-full p-1.5 flex items-center justify-between' onClick={clickMe} id='nav-button'>
+      
+        <Link to='/Signup' className='nav-login list-none text-white' id='nav-button'>
           Get the App
-          {/* <img src={downloadimg} alt=""  className='h-[16px] w-[16px]'/> */}
-        </button>
+        </Link>
+
+        
+
       </div>
 
 
@@ -68,10 +68,10 @@ const Navbar = () => {
         <div className=''>
           {/* Hambureber menu */}
           <i className={clicked ? 'fas fa-times fa-xl cursor-pointer' : 'fas fa-bars fa-xl cursor-pointer'} onClick={handleClick}></i>
-        
-         {/* pop-up bubble */}
+
+          {/* pop-up bubble */}
           <div className={`${clicked ? 'flex' : 'hidden'} p-4 bg-black-gradient absolute top-16 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar-div z-10`}>
-            
+
             <ul className='list-none flex flex-col justify-start justify-items-start flex-1 '>
               {navLinks.map((nav, index) => (
                 <li key={nav.id} className='cursor-pointer text-[16px] text-white mb-4 ' id='nav-points'>

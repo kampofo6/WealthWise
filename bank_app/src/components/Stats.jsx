@@ -55,7 +55,7 @@ const Stats = () => {
               </p>
             </div>
 
-            <div className='card1s stat-div flex p-6 mx-auto'>
+            <div className='card1s stat-div flex p-6 mx-auto xs:mb-12'>
               <img src={credit} alt="" className='stat-pic' />
             </div>
             

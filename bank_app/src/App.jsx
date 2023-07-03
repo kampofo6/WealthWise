@@ -8,6 +8,7 @@ import Stats from './components/Stats.jsx';
 import Test from './components/Test.jsx';
 import Foot from './components/Foot.jsx';
 import Signin from './Pages/Signin.jsx';
+import SocialProof from './components/SocialProof.jsx';
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
+           
+            
           </div>
         </div>
 
@@ -25,6 +28,8 @@ const App = () => {
         <div className={`bg-secondary ${styles.flexStart}`} id="stats-bg">
           <div className={`${styles.boxWidth}`}>
             <Stats />
+            <SocialProof/>
+            
 
           </div>
         </div>
